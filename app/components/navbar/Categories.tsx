@@ -111,7 +111,7 @@ const Categories = () => {
   return (
     <>
       <Container>
-        <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto scroll">
+        <div className="pt-4 flex flex-row items-center justify-between overflow-x-auto scrollbar-hide">
           {categories.map((items) => {
             console.log(category === items.label,'selected')
             return (
