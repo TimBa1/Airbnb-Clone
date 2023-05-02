@@ -3,7 +3,7 @@ import React from "react";
 interface HeadingProps {
   title: string;
   subtile: string;
-  center: boolean;
+  center?: boolean;
 }
 
 const Heading: React.FC<HeadingProps> = ({ title, subtile, center }) => {
